@@ -9,6 +9,7 @@ This is a **simple expense tracker** project built to test the full-stack capabi
 - **Next.js** – Full-stack React framework
 - **Prisma** – Database ORM
 - **Stripe** – Payment processing (Test Mode)
+- **PostHog** – User activity monitoring & statistics
 - **Vercel** – Deployment
 
 ## 💳 Test Payments
@@ -23,6 +24,7 @@ This project uses **Stripe Test Mode**, so you can test payments using the follo
 - Secure user authentication
 - Stripe payment integration (Test Mode)
 - Full-stack Next.js implementation
+- **User activity monitoring with PostHog**
 
 ## 📜 Setup Instructions
 1. Clone the repo:
@@ -36,7 +38,7 @@ This project uses **Stripe Test Mode**, so you can test payments using the follo
    ```
 3. Set up environment variables:
    - Create a `.env.local` file
-   - Add your **Stripe** and **Prisma** configurations
+   - Add your **Stripe**, **Prisma**, and **PostHog** configurations
 4. Run the development server:
    ```sh
    npm run dev
